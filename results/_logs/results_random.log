@@ -1,0 +1,7 @@
+[random] main     succ 0.004 coll 0.324 oob 0.691 spl 0.004 path_ratio 1.052
+[random] d10      succ 0.004 coll 0.160 oob 0.848 spl 0.004 path_ratio 1.076
+[random] d40      succ 0.000 coll 0.438 oob 0.578 spl 0.000 path_ratio nan
+[random] scale    succ 0.004 coll 0.348 oob 0.656 spl 0.004 path_ratio 1.081
+[random] noise05  succ 0.000 coll 0.332 oob 0.668 spl 0.000 path_ratio nan
+[random] noise15  succ 0.008 coll 0.320 oob 0.672 spl 0.006 path_ratio 1.337
+[random] per4     succ 0.008 coll 0.336 oob 0.660 spl 0.008 path_ratio 0.204

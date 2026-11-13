@@ -1,0 +1,17 @@
+﻿eval: ppo --out results/ppo_s0 --conditions
+eval: ppo --out results/ppo_s1 --conditions
+eval: ppo --out results/ppo_s2 --conditions
+eval: dqn --out results/dqn_s0 --conditions
+eval: dqn --out results/dqn_s1 --conditions
+eval: dqn --out results/dqn_s2 --conditions
+eval: ppo --out results/ppo_sparse_s0 --conditions
+eval: ppo --out results/ppo_sparse_s1 --conditions
+eval: ppo --out results/ppo_sparse_s2 --conditions
+eval: ppo --out results/ppo_per4_s0 --conditions
+eval: ppo --out results/ppo_per4_s1 --conditions
+eval: ppo --out results/ppo_per4_s2 --conditions
+eval: reactive --out results/reactive --conditions
+eval: astar --out results/astar --conditions
+eval: random --out results/random --conditions
+evaluation finished in 32s, failures=0
+wrote 105 rows -> results\summary.csv

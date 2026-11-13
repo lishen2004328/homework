@@ -1,0 +1,47 @@
+{
+  "algo": "ppo",
+  "cfg": {
+    "total_steps": 1000000,
+    "rollout_len": 128,
+    "epochs": 6,
+    "minibatch": 512,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip": 0.2,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "lr": 0.0003,
+    "max_grad_norm": 0.5,
+    "hidden": 128,
+    "init_log_std": -0.7,
+    "seed": 2,
+    "log_every": 10
+  },
+  "env": {
+    "n_envs": 64,
+    "map_half": 7.5,
+    "n_obstacles": 25,
+    "obstacle_radius": [
+      0.25,
+      0.7
+    ],
+    "n_rays": 32,
+    "perception_range": 8.0,
+    "v_max": 2.0,
+    "a_max": 2.0,
+    "dt": 0.1,
+    "max_steps": 150,
+    "z_range": [
+      1.0,
+      3.5
+    ],
+    "reward_mode": "sparse",
+    "sensor_noise": 0.0,
+    "goal_radius": 0.5,
+    "goal_dist": [
+      4.5,
+      6.5
+    ],
+    "obs_dim": 48
+  }
+}

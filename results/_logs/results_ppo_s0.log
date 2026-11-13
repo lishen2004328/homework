@@ -1,0 +1,7 @@
+[ppo] main     succ 0.949 coll 0.023 oob 0.012 spl 0.863 path_ratio 1.103
+[ppo] d10      succ 1.000 coll 0.000 oob 0.000 spl 0.911 path_ratio 1.104
+[ppo] d40      succ 0.820 coll 0.125 oob 0.039 spl 0.750 path_ratio 1.099
+[ppo] scale    succ 0.922 coll 0.047 oob 0.023 spl 0.830 path_ratio 1.121
+[ppo] noise05  succ 0.953 coll 0.031 oob 0.012 spl 0.863 path_ratio 1.112
+[ppo] noise15  succ 0.941 coll 0.055 oob 0.000 spl 0.857 path_ratio 1.105
+[ppo] per4     succ 0.969 coll 0.020 oob 0.008 spl 0.869 path_ratio 1.118

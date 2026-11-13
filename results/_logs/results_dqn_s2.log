@@ -1,0 +1,7 @@
+[dqn] main     succ 0.840 coll 0.066 oob 0.094 spl 0.742 path_ratio 1.146
+[dqn] d10      succ 0.918 coll 0.004 oob 0.074 spl 0.820 path_ratio 1.135
+[dqn] d40      succ 0.617 coll 0.211 oob 0.176 spl 0.531 path_ratio 1.186
+[dqn] scale    succ 0.855 coll 0.078 oob 0.066 spl 0.757 path_ratio 1.143
+[dqn] noise05  succ 0.883 coll 0.051 oob 0.074 spl 0.781 path_ratio 1.142
+[dqn] noise15  succ 0.832 coll 0.078 oob 0.094 spl 0.739 path_ratio 1.135
+[dqn] per4     succ 0.852 coll 0.066 oob 0.082 spl 0.760 path_ratio 1.125

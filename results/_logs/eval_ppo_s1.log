@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "D:\学校文件\研究生入学\课程文件\深度学习\uav-nav-ppo\scripts\evaluate.py", line 100, in <module>
+    main()
+    ~~~~^^
+  File "D:\学校文件\研究生入学\课程文件\深度学习\uav-nav-ppo\scripts\evaluate.py", line 88, in main
+    policy = build_policy(args.kind, args.model, env)
+  File "D:\学校文件\研究生入学\课程文件\深度学习\uav-nav-ppo\scripts\evaluate.py", line 45, in build_policy
+    ckpt = torch.load(model_path, map_location="cpu", weights_only=False)
+  File "C:\Users\lishen\AppData\Local\Doubao\User Data\sandbox_runtime\bases\fa694f517e5995233c80a9a8db5212c2\python\Lib\site-packages\torch\serialization.py", line 1566, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\lishen\AppData\Local\Doubao\User Data\sandbox_runtime\bases\fa694f517e5995233c80a9a8db5212c2\python\Lib\site-packages\torch\serialization.py", line 796, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\lishen\AppData\Local\Doubao\User Data\sandbox_runtime\bases\fa694f517e5995233c80a9a8db5212c2\python\Lib\site-packages\torch\serialization.py", line 777, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'ppo_s1/model.pt'

@@ -1,0 +1,7 @@
+[reactive] main     succ 0.738 coll 0.059 oob 0.168 spl 0.585 path_ratio 1.316
+[reactive] d10      succ 0.922 coll 0.000 oob 0.074 spl 0.819 path_ratio 1.149
+[reactive] d40      succ 0.473 coll 0.184 oob 0.234 spl 0.339 path_ratio 1.439
+[reactive] scale    succ 0.762 coll 0.078 oob 0.137 spl 0.582 path_ratio 1.353
+[reactive] noise05  succ 0.648 coll 0.094 oob 0.254 spl 0.469 path_ratio 1.467
+[reactive] noise15  succ 0.512 coll 0.117 oob 0.355 spl 0.363 path_ratio 1.505
+[reactive] per4     succ 0.676 coll 0.082 oob 0.195 spl 0.535 path_ratio 1.310

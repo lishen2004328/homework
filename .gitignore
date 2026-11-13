@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+
+# 渲染校验与调试中间产物（可随时由脚本重新生成）
+results/_*.png
+results/_*.txt
+results/_*.log
+results/_layout_test.pdf
+results/figures/_*
+results/numbers_mock.json
+scripts/_*.py
